@@ -9,10 +9,10 @@ import numpy as np
 import torch
 #from face_recognition_code import face_recognition_function as face_recognition
 
-AWS_ACCESS_KEY_ID = "AKIAVRUVQFBTU62ZI2VZ"
-AWS_SECRET_ACCESS_KEY = "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"
-AWS_DEFAULT_REGION = "us-east-1"
-ASU_ID = "1229331326"
+AWS_ACCESS_KEY_ID = " "
+AWS_SECRET_ACCESS_KEY = " "
+AWS_DEFAULT_REGION = " "
+ASU_ID = " "
 os.environ['TORCH_HOME'] = '/tmp/torch'
 
 
