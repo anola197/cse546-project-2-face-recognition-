@@ -6,10 +6,10 @@ import math
 import json
 from video_splitting_cmdline import video_splitting_cmdline
 
-AWS_ACCESS_KEY_ID = "AKIAVRUVQFBTU62ZI2VZ"
-AWS_SECRET_ACCESS_KEY = "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"
-AWS_DEFAULT_REGION = "us-east-1"
-ASU_ID = "1229331326"
+AWS_ACCESS_KEY_ID = " "
+AWS_SECRET_ACCESS_KEY = " "
+AWS_DEFAULT_REGION = " "
+ASU_ID = " "
 
 def lambda_handler(event, context):
     s3_client = boto3.client('s3', region_name=AWS_DEFAULT_REGION,
